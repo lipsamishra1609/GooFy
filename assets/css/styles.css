@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Artifika&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+    color: #ffffff;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_box{
+  width: 50%;
+  position: relative;
+}
+
+.search_box input[type="text"]{
+  width: 100%;
+  padding: 20px;
+  padding-right: 60px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.3);
+  border: 2px solid #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #fff;
+  outline: none;
+}
+
+.searchbtn{
+  position: absolute;
+  width: 60px;
+  height: 65px;
+  margin-left: 30px;
+  border: 1px solid #00B42C;
+  border-radius: 15px;
+  background-color: #00B42C;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+::-moz-placeholder {
+  color: #fff;
+}
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+h1 {
+    position: absolute;
+    font-family: 'Artifika', serif;
+    font-size: 3.2vw;
+    padding-left: 17vw;
+    margin-bottom: 20vw;
+    overflow: hidden;
+    margin-left: 100px;
+}
+
+h1 .box {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    background: #ec068c;
+    height: 0.5vw;
+    z-index: -1;
+}
+
+h1 .hi {
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 425px){
+  .search_box{
+    width: 95%;
+  }
+}
