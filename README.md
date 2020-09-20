@@ -6,3 +6,6 @@
 
 #### Second Page
 <img src="assets/images/secondpg.png" >
+
+### Requirement
+Compatible with Google Chrome.
