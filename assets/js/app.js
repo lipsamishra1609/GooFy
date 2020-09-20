@@ -1,5 +1,5 @@
 /*var keyword = localStorage.getItem("storageName");*/
-let GIPHY_KEY = 'fFVi4MAwmv5MdfYyfWWKNQxiECO998og';
+const GIPHY_KEY = 'EU6XkO199HHB05OSaVWzkNRHoGfJMZcY';
 
 function home(){
   window.location.replace("index.html");
