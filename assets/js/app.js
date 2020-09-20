@@ -1,5 +1,5 @@
 /*var keyword = localStorage.getItem("storageName");*/
-const GIPHY_KEY = 'EU6XkO199HHB05OSaVWzkNRHoGfJMZcY';
+const GIPHY_KEY = 'ENTER_YOUR_API_KEY';
 
 function home(){
   window.location.replace("index.html");
