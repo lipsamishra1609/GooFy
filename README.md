@@ -1,3 +1,4 @@
 # GooFy
-### A website that make sure you find all your favourite gifs 🍕.
+### A website that make sure you find all your favourite gifs.🍕
+## Screenshots.
 
